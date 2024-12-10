@@ -16,8 +16,8 @@ layers:
   - '&td0'
   - A
   - S
-  - D
-  - F
+  - '&hrm_ctrl D'
+  - '&hrm_shift F'
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
