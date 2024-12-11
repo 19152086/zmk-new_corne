@@ -21,8 +21,7 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200// 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20// 10
-#define DEFAULT_HOLD_DELAY 20// 200
-
+#define DEFAULT_HOLD_DELAY 200
 
 / {
 	behaviors {
@@ -37,6 +36,7 @@
 			label = "Tap Dance Example";
 			#binding-cells = <0>;
 			bindings = <&kp GRAVE>, <&kp ESC>;
+			hold-tap-delay-ms = <DEFAULT_HOLD_DELAY>;// Optional: replace with DEFAULT_HOLD_DELAY if defined
 		};
 	};
 	
@@ -48,7 +48,6 @@
 	
 	scroll_encoder: scroll_encoder {
 		compatible = "zmk,behavior-sensor-rotate";
-		#sensor-binding-cells = <0>;
 		bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 		tap-ms = <30>;
 	};
