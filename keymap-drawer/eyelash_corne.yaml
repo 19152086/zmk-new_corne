@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - '&td1'
+  - '&td0'
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
+  - '&td1'
   - A
   - S
   - D
