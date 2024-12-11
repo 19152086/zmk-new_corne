@@ -21,6 +21,8 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200// 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20// 10
+#define DEFAULT_HOLD_DELAY 20// 200
+
 
 / {
 	behaviors {
@@ -35,7 +37,7 @@
 			label = "Grave/Escape";
 			#binding-cells = <0>;
 			bindings = <&kp GRAVE>, <&kp ESC>;
-			hold-tap-delay-ms = <GRAVE_ESCAPE_HOLD_DELAY>;
+			hold-tap-delay-ms = <DEFAULT_HOLD_DELAY>;
 		};
 	};
 	
