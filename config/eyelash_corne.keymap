@@ -33,11 +33,10 @@
 			bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 		};
 		td1: td1 {
-			compatible = "zmk,behavior-hold-tap";
-			label = "Grave/Escape";
+			compatible = "zmk,behavior-tap-dance";
+			label = "Tap Dance Example";
 			#binding-cells = <0>;
 			bindings = <&kp GRAVE>, <&kp ESC>;
-			hold-tap-delay-ms = <DEFAULT_HOLD_DELAY>;
 		};
 	};
 	
