@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - '&grave_escape'
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -31,7 +31,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
-  - C dd
+  - C
   - V
   - B
   - $$mdi:keyboard-space$$
