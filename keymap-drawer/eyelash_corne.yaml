@@ -1,6 +1,6 @@
 layers:
   QWERTY:
-  - '&td1'
+  - {t: '`', h: '$$mdi:keyboard-esc$$', s: '~'}
   - Q
   - W
   - E
