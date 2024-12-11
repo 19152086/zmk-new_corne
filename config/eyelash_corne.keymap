@@ -34,7 +34,7 @@
 			compatible = "zmk,behavior-hold-tap";
 			label = "Tap Dance Example";
 			#binding-cells = <0>;
-			bindings = <&kp GRAVE>, <&kp ESC>;
+			bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
 		};
 	};
 	
