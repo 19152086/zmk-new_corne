@@ -45,10 +45,6 @@
 		tap-ms = <30>;
 	};
 	
-	&mt {
-		tapping-term-ms = <175>;
-	};
-	
 	keymap {
 		compatible = "zmk,keymap";
 		
